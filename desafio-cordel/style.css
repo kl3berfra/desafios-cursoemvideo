@@ -1,0 +1,91 @@
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family:"Passion" ;
+    src: url(fontes/Passion_One/PassionOne-Bold.ttf) format("opentype");
+}
+
+@font-face {
+    font-family:"Sriracha";
+    src: url(fontes/Sriracha/Sriracha-Regular.ttf) format("opentype");
+    font-weight: normal;
+}
+
+:root {
+    --font-destaque: "Passion"; 
+    --font-padrao: "Sriracha", cursive; 
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: rgb(97, 0, 0);
+    height: 125px;
+}
+
+header > h1{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-family:var(--font-destaque);
+}
+
+header > p {
+    text-align: center;
+    color: white;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    height: auto;
+    
+}
+
+main#estrofe1 {
+    background-color: white;
+    max-width: 400px;
+    height: 400px;
+}
+
+#estrofe1 > pre {
+    text-align: justify;
+    padding-top: 50px;
+    margin-left: -40px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: var(--font-padrao);
+}
+
+main#estrofe2 {
+    max-width: 400px;
+    background-image: url(imagens/fundo1.jpg);
+    height: 400px;
+   
+}
+
+#estrofe2 > pre {
+    text-align: justify;
+    padding-top: 50px;
+    margin-left: -40px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: var(--font-padrao);
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.389); 
+    width: 250px;
+    height: 250px;
+    display: block;
+
+}
+}
