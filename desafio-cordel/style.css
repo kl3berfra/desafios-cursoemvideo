@@ -25,12 +25,15 @@
 }
 
 body {
-    background-color: black;
+    background-color: white;
 }
 
+/*--------------------HEADER----------------------*/
+
 header {
-    background-color: rgb(97, 0, 0);
-    height: 125px;
+    background-color:black;
+    height: 130px;
+    width: 99.1vw;
 }
 
 header > h1{
@@ -40,27 +43,36 @@ header > h1{
     font-family:var(--font-destaque);
 }
 
+header > p > .milton-duarte {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header > p > .milton-duarte:hover {
+    text-decoration: underline;
+}
+
 header > p {
     text-align: center;
     color: white;
 }
 
+/*---------------------MAIN-------------------*/ 
+
 main {
-    background-color: white;
+    background-color: red;
     margin: auto;
-    height: auto;
-    
+    max-width: 500px;
+    height: ;
 }
 
 main#estrofe1 {
-    background-color: white;
-    max-width: 400px;
-    height: 400px;
+
 }
 
 #estrofe1 > pre {
     text-align: justify;
-    padding-top: 50px;
     margin-left: -40px;
     font-size: 16px;
     line-height: 30px;
@@ -68,24 +80,15 @@ main#estrofe1 {
 }
 
 main#estrofe2 {
-    max-width: 400px;
-    background-image: url(imagens/fundo1.jpg);
-    height: 400px;
-   
+    background-image: url(#);
 }
 
 #estrofe2 > pre {
     text-align: justify;
-    padding-top: 50px;
     margin-left: -40px;
     font-size: 16px;
     line-height: 30px;
     font-family: var(--font-padrao);
-    color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.389); 
-    width: 250px;
-    height: 250px;
-    display: block;
+    color: black;
+}
 
-}
-}
