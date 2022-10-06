@@ -25,7 +25,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: darkred;
 }
 
 /*--------------------HEADER----------------------*/
@@ -67,11 +67,11 @@ main {
     height: ;
 }
 
-main#estrofe1 {
+main.estrofe1 {
 
 }
 
-#estrofe1 > pre {
+.estrofe1 > pre {
     text-align: justify;
     margin-left: -40px;
     font-size: 16px;
@@ -79,11 +79,11 @@ main#estrofe1 {
     font-family: var(--font-padrao);
 }
 
-main#estrofe2 {
+main.estrofe2 {
     background-image: url(#);
 }
 
-#estrofe2 > pre {
+.estrofe2 > pre {
     text-align: justify;
     margin-left: -40px;
     font-size: 16px;
@@ -92,3 +92,29 @@ main#estrofe2 {
     color: black;
 }
 
+.estrofe3 > pre {
+    text-align: justify;
+    margin-left: -40px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: var(--font-padrao);
+    color: black;
+}
+
+.estrofe4 > pre {
+    text-align: justify;
+    margin-left: -40px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: var(--font-padrao);
+    color: black;
+}
+
+.estrofe5 > pre {
+    text-align: justify;
+    margin-left: -40px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: var(--font-padrao);
+    color: black;
+}
